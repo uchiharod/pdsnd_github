@@ -11,6 +11,7 @@ the_cities = ['chicago', 'new york city', 'washington']
 the_months = ['january', 'february', 'march', 'april', 'may', 'june', 'all']
 the_days = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday', 'all']
 
+#Create get filters function here
 def get_filters(): 
     """ 
     Asks user to specify a city, month, and day to analyze. 
@@ -84,6 +85,7 @@ def load_data(city, month, day):
 
     return df
 
+#Getting the time stats here
 def time_stats(df):
     """Displays statistics on the most frequent times of travel."""
 
@@ -105,6 +107,7 @@ def time_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
+#Getting the station stats here
 def station_stats(df):
     """Displays statistics on the most popular stations and trip."""
 
@@ -126,6 +129,7 @@ def station_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
+#Getting the trip duration stats here
 def trip_duration_stats(df):
     """Displays statistics on the total and average trip duration."""
 
