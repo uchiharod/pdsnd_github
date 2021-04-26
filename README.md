@@ -17,4 +17,4 @@ new_york_city.csv
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
 
 ### Objective 
-To build upon my existing python skills 
+To build upon my existing python skills and to build my github portfolio
