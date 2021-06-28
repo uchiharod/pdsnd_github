@@ -43,7 +43,7 @@ def get_filters():
             month = name_of_month() 
         return month 
     month = name_of_month()
-    
+
 #Grabbing the user input for the day they want to see data on 
     print('Select a day monday, tuesday, wednesday, thursday, friday, saturday, sunday or all ?') 
     def name_of_day(): 
@@ -135,6 +135,7 @@ def station_stats(df):
 #Getting the trip duration stats here
 def trip_duration_stats(df):
     """Displays statistics on the total and average trip duration."""
+    
     #Updating the Calculations of the Trip Duration script
     print('\nCalculating Trip Duration...\n')
     start_time = time.time()
