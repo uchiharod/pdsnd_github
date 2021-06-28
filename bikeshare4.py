@@ -11,7 +11,7 @@ the_cities = ['chicago', 'new york city', 'washington']
 the_months = ['january', 'february', 'march', 'april', 'may', 'june', 'all']
 the_days = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday', 'all']
 
-#Create get_filters function here
+#Create the get_filters function here
 def get_filters(): 
     """ 
     Asks user to specify a city, month, and day to analyze. 
