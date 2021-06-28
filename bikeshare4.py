@@ -21,6 +21,7 @@ def get_filters():
         (str) day - name of the day of week to filter by, or "all" to apply no day filter 
     """ 
     print('Hello! Let\'s explore some US bikeshare data!') 
+
 #Grabbing the user input for the city to get data from
     print('Alright then. Let\'s get this show on the road.\nFirst, tell us what city you want to see data from. \nChoose from either: Chicago, New York City, or Washington.') 
     def name_of_city(): 
@@ -31,6 +32,7 @@ def get_filters():
             city = name_of_city() 
         return city 
     city = name_of_city() 
+
 #Grabbing the user input for the month they want to see data on 
     print('Select a month january, february, march, april, may, june or all ?') 
     def name_of_month(): 
@@ -41,6 +43,7 @@ def get_filters():
             month = name_of_month() 
         return month 
     month = name_of_month()
+    
 #Grabbing the user input for the day they want to see data on 
     print('Select a day monday, tuesday, wednesday, thursday, friday, saturday, sunday or all ?') 
     def name_of_day(): 
