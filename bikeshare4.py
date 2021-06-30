@@ -163,7 +163,7 @@ def user_stats(df, city):
     print("The count of user types according to the fitered data is: \n" + str(user_types))
 
     if city == 'chicago.csv' or city == 'new_york_city.csv':
-        #Showing counts of gender
+        #Showing counts of genders
         gender = df['Gender'].value_counts()
         print("The count of user genders according to the fitered data is: \n" + str(gender))
 
