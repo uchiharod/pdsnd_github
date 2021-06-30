@@ -144,7 +144,7 @@ def trip_duration_stats(df):
     total_travel = df['Trip Duration'].sum()
     print("According to the filtered data, the total travel time is: " + str(total_travel))
 
-    #Showing mean travel time
+    #Showing mean travel times
     mean_travel = df['Trip Duration'].mean()
     print("According to the filtered data, the mean travel time is: " + str(mean_travel))
 
@@ -158,7 +158,7 @@ def user_stats(df, city):
     print('\nCalculating User Stats...\n')
     start_time = time.time()
 
-    #Showing counts of user types
+    #Showing counts of user type
     user_types = df['User Type'].value_counts()
     print("The count of user types according to the fitered data is: \n" + str(user_types))
 
