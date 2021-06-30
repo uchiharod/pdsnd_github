@@ -135,12 +135,12 @@ def station_stats(df):
 #Getting the trip duration stats here
 def trip_duration_stats(df):
     """Displays statistics on the total and average trip duration."""
-    
+
     #Updating the Calculations of the Trip Duration script
     print('\nCalculating Trip Duration...\n')
     start_time = time.time()
 
-    #Showing total travel time
+    #Showing total travel times
     total_travel = df['Trip Duration'].sum()
     print("According to the filtered data, the total travel time is: " + str(total_travel))
 
