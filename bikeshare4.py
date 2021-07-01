@@ -121,7 +121,7 @@ def station_stats(df):
     popular_start_station = df['Start Station'].mode()[0]
     print("According to the filtered data, the most popular start station is: " + popular_start_station)
 
-    #Showing the most popular end station
+    #Showing the most popular end stations
     popular_end_station = df['End Station'].mode()[0]
     print("According to the filtered data, the most popular end station is: " + popular_end_station)
 
