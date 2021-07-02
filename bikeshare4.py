@@ -158,7 +158,7 @@ def user_stats(df, city):
     print('\nCalculating User Stats...\n')
     start_time = time.time()
 
-    #Showing counts of user type
+    #Showing counts of user types
     user_types = df['User Type'].value_counts()
     print("The count of user types according to the fitered data is: \n" + str(user_types))
 
