@@ -5,7 +5,7 @@ This README was created on April 22, 2021.
 Bikesharing Program that retrieves data from these three different cities (Chicago, Washington, and New York City) using python.
 
 ### Description
-In this program, I use Python to explore data related to bike sharing systems for three major cities in the United States: Chicago, New York City, and Washington. 
+In this program, I'm using Python to explore data related to bike sharing systems for three major cities in the United States: Chicago, New York City, and Washington. 
 
 ### Files used
 bikeshare.py
